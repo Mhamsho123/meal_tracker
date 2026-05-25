@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const addBtn = document.getElementById('add-btn');
 
 addBtn.addEventListener('click', function(){
@@ -25,6 +24,3 @@ addBtn.addEventListener('click', function(){
     })
 
 })
-=======
-    
->>>>>>> 8ca08388ca3d41c6516cf734e45102b0d99d58d8
