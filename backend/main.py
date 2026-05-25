@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-<<<<<<< HEAD
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
@@ -25,11 +24,5 @@ def get_meals():
 def add_meal(meal: dict):
     meals.append(meal)
     return {"message": "meal added", "meals": meals}
-=======
 
-app = FastAPI()
 
-@app.get("/")
-def home():
-    return {"message": "bastard"}
->>>>>>> 8ca08388ca3d41c6516cf734e45102b0d99d58d8
